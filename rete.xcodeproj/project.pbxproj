@@ -11,6 +11,7 @@
 		1CDE0DCC2C29441A004FA997 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE0DCB2C29441A004FA997 /* ContentView.swift */; };
 		1CDE0DCE2C29441B004FA997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE0DCD2C29441B004FA997 /* Assets.xcassets */; };
 		1CDE0DD12C29441B004FA997 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE0DD02C29441B004FA997 /* Preview Assets.xcassets */; };
+		1CDE0DD82C2944AB004FA997 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE0DD72C2944AB004FA997 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1CDE0DCB2C29441A004FA997 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CDE0DCD2C29441B004FA997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CDE0DD02C29441B004FA997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CDE0DD72C2944AB004FA997 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1CDE0DC92C29441A004FA997 /* reteApp.swift */,
 				1CDE0DCB2C29441A004FA997 /* ContentView.swift */,
+				1CDE0DD72C2944AB004FA997 /* HomeView.swift */,
 				1CDE0DCD2C29441B004FA997 /* Assets.xcassets */,
 				1CDE0DCF2C29441B004FA997 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CDE0DD82C2944AB004FA997 /* HomeView.swift in Sources */,
 				1CDE0DCC2C29441A004FA997 /* ContentView.swift in Sources */,
 				1CDE0DCA2C29441A004FA997 /* reteApp.swift in Sources */,
 			);
