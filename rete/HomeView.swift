@@ -14,7 +14,7 @@ struct HomeView: View {
             .font(.title)
             .foregroundStyle(Color.red)
         Button("press here") {
-            
+            print("button is pressing")
         }
             
     }
