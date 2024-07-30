@@ -11,18 +11,18 @@ struct ContentView: View {
     var body: some View {
         ScrollView {
             ForEach(0..<10) { _ in
-                var body: some View {
-                    VStack {
-                        Image(systemName: "globe")
-                            .imageScale(.large)
-                            .foregroundStyle(.red)
-                        Text("Dip Dutt")
-                        Rectangle()
-                            .fill(Color.yellow)
-                            .frame(width: 200, height: 200)
-                            
-                    }
-                    .padding()
+                VStack {
+                    Image(systemName: "globe")
+                        .imageScale(.large)
+                        .foregroundStyle(.red)
+                    Text("Dip Dutt")
+                    Rectangle()
+                        .fill(Color.yellow)
+                        .frame(width: 300, height: 300)
+                    
+                }
+                .padding()
+                
             }
         }
     }
